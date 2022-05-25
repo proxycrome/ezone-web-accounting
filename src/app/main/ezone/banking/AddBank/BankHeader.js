@@ -68,7 +68,7 @@ function ProductHeader(props) {
               {/* <Typography className="text-16 sm:text-20 truncate font-semibold">
                 {name || 'New Product'}
               </Typography> */}
-              <Typography variant="caption" className="font-medium">
+              <Typography variant="h4" className="font-medium">
                 Add Bank Account
               </Typography>
             </motion.div>
@@ -87,7 +87,7 @@ function ProductHeader(props) {
           // onClick={handleRemoveProduct}
           startIcon={<Icon className="hidden sm:flex">delete</Icon>}
         >
-          Remove
+          Cancel
         </Button>
         <Button
           className="whitespace-nowrap mx-4"

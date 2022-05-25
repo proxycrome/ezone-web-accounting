@@ -15,9 +15,11 @@ import NotesAppConfig from './notes/NotesAppConfig';
 import ScrumboardAppConfig from './scrumboard/ScrumboardAppConfig';
 import TodoAppConfig from './todo/TodoAppConfig';
 import ReportsConfig from '../ezone/reports/ReportsConfig';
+import AccSetupConfig from '../ezone/home/AccSetupConfig';
 
 const appsConfigs = [
   // start of ezone
+  AccSetupConfig,
   DashboardConfig,
   BankingConfig,
   ChartOfAcctConfig,

@@ -152,23 +152,23 @@ function AddBank(props) {
           header: 'min-h-72 h-72 sm:h-136 sm:min-h-136',
         }}
         header={<BankHeader />}
-        contentToolbar={
-          <Tabs
-            value={tabValue}
-            onChange={(e) => handleTabChange(e, e.target.value)}
-            indicatorColor="primary"
-            textColor="primary"
-            variant="scrollable"
-            scrollButtons="auto"
-            classes={{ root: 'w-full h-64' }}
-          >
-            <Tab className="h-64" label="Basic Info" />
-            {/* <Tab className="h-64" label="Product Images" />
-            <Tab className="h-64" label="Pricing" />
-            <Tab className="h-64" label="Inventory" />
-            <Tab className="h-64" label="Shipping" /> */}
-          </Tabs>
-        }
+        // contentToolbar={
+        //   <Tabs
+        //     value={tabValue}
+        //     onChange={(e) => handleTabChange(e, e.target.value)}
+        //     indicatorColor="primary"
+        //     textColor="primary"
+        //     variant="scrollable"
+        //     scrollButtons="auto"
+        //     classes={{ root: 'w-full h-64' }}
+        //   >
+        //     {/* <Tab className="h-64" label="Basic Info" /> */}
+        //     {/* <Tab className="h-64" label="Product Images" />
+        //     <Tab className="h-64" label="Pricing" />
+        //     <Tab className="h-64" label="Inventory" />
+        //     <Tab className="h-64" label="Shipping" /> */}
+        //   </Tabs>
+        // }
         content={
           <div className="p-16 sm:p-24 max-w-2xl">
             <div className={tabValue !== 0 ? 'hidden' : ''}>

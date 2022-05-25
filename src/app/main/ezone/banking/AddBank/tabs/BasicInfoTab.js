@@ -40,7 +40,6 @@ function BasicInfoTab(props) {
             helperText={errors?.accountCode?.message}
             label="Account Code"
             type="number"
-            autoFocus
             id="accountCode"
             variant="outlined"
             fullWidth
@@ -59,7 +58,6 @@ function BasicInfoTab(props) {
             required
             helperText={errors?.bankName?.message}
             label="Bank Name"
-            autoFocus
             id="bankName"
             variant="outlined"
             fullWidth
@@ -79,7 +77,6 @@ function BasicInfoTab(props) {
             helperText={errors?.accountNumber?.message}
             label="Account Number"
             type="number"
-            autoFocus
             id="accountNumber"
             variant="outlined"
             fullWidth
